@@ -13,3 +13,4 @@ results = cursor.fetchall()
 conn.close()
 
 print(results)
+# comes back as a list of tuples
