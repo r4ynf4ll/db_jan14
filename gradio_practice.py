@@ -16,6 +16,6 @@ def fetch():
     return records_df
 
 # making interface
-iface = gr.Interface(fn = fetch(),inputs=[],outputs=gr.Dataframe(headers=['id','x','y']))
+iface = gr.Interface(fn = fetch,inputs=[],outputs=gr.Dataframe(headers=['id','x','y']))
 
 iface.launch()
